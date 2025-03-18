@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { ActiveThemeProvider } from "@/components/active-theme"
 import { Toaster } from "@workspace/ui/components/sonner"
 import { fontVariables } from "@/lib/fonts"
-import { cn } from "@/lib/utils"
+import { cn } from "@workspace/ui/lib/utils"
 
 
 export default async function RootLayout({
